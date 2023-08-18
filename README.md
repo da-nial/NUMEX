@@ -29,17 +29,17 @@ The project is explained in detail in the [docs/instructions.pdf](docs/instructi
        and returns the NUMEX value it evaluates to under the empty environment or calls Racket's error if evaluation
        encounters a run-time NUMEX type error or unbound NUMEX variables.
     2. Implement simple NUMEX type system (`infer-exp`)
-    3. Write NUMEX macros for NUMEX extensions: Example Racket functions that produce NUMEX expressions that could then
+    3. Write NUMEX macros for NUMEX extensions: Example Racket functions producing NUMEX expressions that could then
        be put inside larger NUMEX expressions. (`ifmunit`, `with*`, `ifneq`)
     4. Example usage of NUMEX functions by writing NUMEX functions for list filtering (`numex-filter`) and
        comparison `numex-all-gt`.
     5. Experiment with type system limitations:
-        1. `type-error-but-evaluates-ok`: An example expression that the type system infer it as a type error but the
+        1. `type-error-but-evaluates-ok`: An example expression that the type system infers as a type error but the
            interpreter evaluates it fine.
-        2. `type-ok-but-evaluates-error`: An example expression that the type system infer it fine but the interpreter
-           evaluates it to an error.
+        2. `type-ok-but-evaluates-error`: An example expression that the type system infers it fine but the interpreter
+           evaluates it as an error.
     6. Optimize interpreter with free variable analysis (`eval-exp-c`): Building closures with smaller environments by
-       holds only variables that are free variables in the function part of the closure. This is achieved via a utility
+       holding only variables that are free variables in the function part of the closure. This is achieved via a utility
        function `compute-free-vars`
 
 ## Course Information
