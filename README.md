@@ -1,7 +1,6 @@
 # NUMEX: Number-Expression Programming Language
 
-This project involves the design and implementation of an interpreter for the Number-Expression Programming Language (
-NUMEX). NUMEX programs are written in Racket using constructors defined by the structs. The language supports various
+This project involves the design and implementation of an interpreter for the Number-Expression Programming Language (NUMEX). NUMEX programs are written in Racket using constructors defined by the structs. The language supports various
 expressions, including arithmetic operations, logical operations, conditional expressions, functions, and more. The
 project assumes that NUMEX programs are syntactically correct and free of type errors.
 
