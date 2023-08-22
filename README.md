@@ -9,10 +9,10 @@ The project is explained in detail in the [docs/instructions.pdf](docs/instructi
 ### Syntax
 
 - Variables, numbers, booleans
-- Arithmetic (+, -, *, /), logical (`andalso`, `orelse`), and comparison (`iseq`) operations
+- Arithmetic (`+`, `-`, `*`, `/`), logical (`andalso`, `orelse`), and comparison (`iseq`) operations
 - Conditionals (`cnd`, `ifnzero`, `ifleq`)
 - Functions (`lam`), function application (`apply`)
-- Let bindings (with)
+- Let bindings (`with`)
 - Pairs (`apair`) and list operations (`1st`, `2nd`)
 - Recursion (`letrec`)
 - Records (`key`, `record`, `value`)
